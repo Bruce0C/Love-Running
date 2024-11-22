@@ -98,12 +98,23 @@ h1 {
 }
 
 /* Footer */
-footer {
-    background-color: blue;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color:#3a3a3a
 }
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -126,16 +137,24 @@ footer {
 
     }
 
-    #logo{
+    #logo {
         font-size: ;
         line-height: ;
         margin: 1 1.5rem;
     }
 
     /* Maint content*/
-    main{
+    main {
         /* Push main content down to accomodate larger header */
         margin-top: 79px;
+    }
+
+}
+
+/* Larger devices (laptops and desktops, 992px and up */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 
 }
